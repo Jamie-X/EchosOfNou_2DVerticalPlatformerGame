@@ -11,7 +11,7 @@
 
 <img width="1456" height="816" alt="jamieX_httpss mj runtHSyvsIoGoQ_Cinematic_game_environment_co_715f66c0-1534-49df-9810-a416762cb371_1" src="https://github.com/user-attachments/assets/c3781422-37b7-423d-906c-98acf8395c7a" />
 
-You play as **A'Nuo**, a Bizika (Tujia) youth wearing a shattered Nuo mask. Starting from the deepest, darkest river valley, your goal is to complete an extreme vertical climb to the ancestral shrine at the mountain peak — a place abandoned by the gods.
+You play as **A'Nuo**, a Tujia (Tujia) youth wearing a shattered Nuo mask. Starting from the deepest, darkest river valley, your goal is to complete an extreme vertical climb to the ancestral shrine at the mountain peak — a place abandoned by the gods.
 
 Master the abilities of four different **Nuo Masks** to traverse treacherous terrain, anchor your progress through ancient shrines scattered along the climb, and ultimately ignite the Nuo Fire with your fragile mortal body.
 
@@ -162,7 +162,7 @@ The current build is a "suffering platformer" prototype. Planned evolution into 
  
 **Indie Developer** — Jamie Xingye Xiang
  
-Inspired by Xiangxi Tima (Nuo) culture, Tujia folklore, and the Bizika people of western Hunan.
+Inspired by Xiangxi Tima (Nuo) culture, Tujia folklore, and the Tujia people of western Hunan.
  
 ---
  
