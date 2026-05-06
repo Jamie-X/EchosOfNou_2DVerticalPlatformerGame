@@ -152,7 +152,7 @@ The current build is a "suffering platformer" prototype. Planned evolution into 
  
 ## Tech Stack
  
-- **Engine** — *(specify your engine, e.g. Unity / Godot / Unreal)*
+- **Engine** — Godot 4.6.2
 - **Art** — Midjourney → Photoshop / Aseprite (Nearest Neighbor downsample)
 - **Audio** — Suno (seamless-loop cyber-folk)
 - **Build Targets** — Windows, macOS, Android, iOS
@@ -163,6 +163,20 @@ The current build is a "suffering platformer" prototype. Planned evolution into 
 **Indie Developer** — Jamie Xingye Xiang
  
 Inspired by Xiangxi Tima (Nuo) culture, Tujia folklore, and the Bizika people of western Hunan.
+ 
+---
+ 
+## Acknowledgments
+ 
+This project is built upon the excellent [**godot4-2d-platformer-template**](https://github.com/EladKarni/godot4-2d-platformer-template) by [Elad Karni](https://github.com/EladKarni), released under the MIT License. The template provided the foundational platformer scaffolding that Echos of Nou's mask-switching and vertical climbing mechanics are built on top of. Huge thanks for making it openly available.
+ 
+See the [LICENSE](./LICENSE) file for full attribution and license terms.
+ 
+---
+ 
+## License
+ 
+Echos of Nou is released under the MIT License. See [LICENSE](./LICENSE) for the full text, including attribution to upstream open-source work.
  
 ---
  
