@@ -1,0 +1,51 @@
+# Changelog
+
+All notable changes to **Echos of Nou** will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+> **Versioning quick reference**
+> `MAJOR.MINOR.PATCH` →
+> - **MAJOR** — breaking save-file or platform changes
+> - **MINOR** — new biomes, masks, modes, or significant content
+> - **PATCH** — bug fixes, balance tweaks, performance improvements
+
+---
+
+## [Unreleased]
+
+### Planned
+- Combat system with forest monsters and Tujia *Badai* exorcism masks
+- Bronze Loom blessing system (run-based enhancements)
+- Permadeath / meta-progression toggle
+- Procedural dungeon generation
+- iOS build
+
+---
+
+## [1.0.0] — 2026-05-06
+
+Initial public release. The "suffering platformer" prototype is feature-complete for the prototype scope.
+
+### Added
+- Vertical platforming core loop: charged jump, auto-walk, fall recovery
+- Four Nuo Masks with unique traversal abilities:
+  - The Pathfinder (aerial dash)
+  - The Mountain Breaker (wall cling / reverse bounce)
+  - The Eightfold King (gravity inversion)
+  - The Nuo-Fire Warlord (double jump)
+- Three game modes: Normal, Story, and Speedrun
+- Checkpoint system with shrine activation and fall protection
+- Four vertical biomes:
+  - Misty River Pass
+  - Valley of Suspended Coffins
+  - Stilted Cliff Village
+  - Ancestral Shrine Peak
+- Cyber-folk soundtrack with Suona accents on critical jumps
+- Builds for Windows, macOS, and Android
+
+### Known Issues
+- iOS build not yet available
+- Some checkpoint transitions may have a one-frame visual hitch
+- Audio mixing balance may need adjustment in headphones vs. speakers
