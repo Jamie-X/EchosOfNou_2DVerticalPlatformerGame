@@ -168,7 +168,15 @@ Inspired by Xiangxi Tima (Nuo) culture, Tujia folklore, and the Bizika people of
  
 ## Acknowledgments
  
-This project is built upon the excellent [**godot4-2d-platformer-template**](https://github.com/EladKarni/godot4-2d-platformer-template) by [Elad Karni](https://github.com/EladKarni), released under the MIT License. The template provided the foundational platformer scaffolding that Echos of Nou's mask-switching and vertical climbing mechanics are built on top of. Huge thanks for making it openly available.
+Echos of Nou stands on the shoulders of generous open-source maintainers and asset creators. Huge thanks to the following:
+ 
+### Code & Engine
+ 
+- **[godot4-2d-platformer-template](https://github.com/EladKarni/godot4-2d-platformer-template)** by [Elad Karni](https://github.com/EladKarni) — the foundational platformer scaffolding that Echos of Nou's mask-switching and vertical climbing mechanics are built on top of. Released under the MIT License.
+### Art Assets
+ 
+- **[The DARK Series — Roots & Trees](https://penusbmic.itch.io/)** by [Penusbmic](https://penusbmic.itch.io/) — atmospheric pixel-art tileset and prop pack used throughout the cliff and forest biomes. Their ongoing DARK Series shaped a lot of the game's visual mood. Used and modified with permission under their commercial-use license.
+If you enjoy the look of the game, check out [Penusbmic's itch.io page](https://penusbmic.itch.io/) for more pixel art packs and free assets — and consider [supporting them on Patreon](https://www.patreon.com/penusbmic).
  
 See the [LICENSE](./LICENSE) file for full attribution and license terms.
  
@@ -176,7 +184,9 @@ See the [LICENSE](./LICENSE) file for full attribution and license terms.
  
 ## License
  
-Echos of Nou is released under the MIT License. See [LICENSE](./LICENSE) for the full text, including attribution to upstream open-source work.
+Echos of Nou's original code is released under the MIT License. See [LICENSE](./LICENSE) for the full text, including attribution to upstream open-source work.
+ 
+Third-party assets and code are licensed under their respective terms. The art assets from Penusbmic's DARK Series are used as a paid licensee with the creator's permission for commercial use and modification. If you'd like to use these assets in your own project, please purchase your own license from [Penusbmic's itch.io page](https://penusbmic.itch.io/).
  
 ---
  
