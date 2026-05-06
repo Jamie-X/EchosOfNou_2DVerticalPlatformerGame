@@ -1,2 +1,148 @@
-# -EchosOfNou_2DVerticalPlatformerGame
-A 2D Pixel Style RPG featuring Nuo Cultrue (傩文化) in Chinese Tujia (湘西土家族) Ethnic Minority Group
+# Echos of Nou
+
+> A 2D vertical platformer where Xiangxi Nuo folklore meets cyber-folk aesthetics. Climb from the misty river valley to the abandoned ancestral shrine — one breath, one mask, one jump at a time.
+
+<img width="927" height="927" alt="游戏封面" src="https://github.com/user-attachments/assets/f0364a49-ecfd-4195-ba23-22fdc070d8b9" />
+
+
+---
+
+## About the Game
+
+<img width="1456" height="816" alt="jamieX_httpss mj runtHSyvsIoGoQ_Cinematic_game_environment_co_715f66c0-1534-49df-9810-a416762cb371_1" src="https://github.com/user-attachments/assets/c3781422-37b7-423d-906c-98acf8395c7a" />
+
+You play as **A'Nuo**, a Bizika (Tujia) youth wearing a shattered Nuo mask. Starting from the deepest, darkest river valley, your goal is to complete an extreme vertical climb to the ancestral shrine at the mountain peak — a place abandoned by the gods.
+
+Master the abilities of four different **Nuo Masks** to traverse treacherous terrain, anchor your progress through ancient shrines scattered along the climb, and ultimately ignite the Nuo Fire with your fragile mortal body.
+
+This prototype focuses on the platforming experience and level puzzle-solving. A roguelite expansion is planned for the future — see the [Roadmap](#roadmap) below.
+
+---
+
+## Download
+
+Get the latest build for your platform:
+
+| Platform | File | Download |
+|----------|------|----------|
+| 🪟 Windows | `EchosOfNou-Setup.exe` | [Download](../../releases/latest) |
+| 🍎 macOS | `EchosOfNou.dmg` | [Download](../../releases/latest) |
+| 🤖 Android | `EchosOfNou.apk` | [Download](../../releases/latest) |
+| 📱 iOS | — | Coming soon |
+
+> 📦 For older versions and patch notes, see the [Releases page](../../releases).
+
+---
+
+## Core Gameplay Loop
+
+The current build is a classic **Climb → Fall → Checkpoint Retry** platformer that emphasizes muscle memory and timely mask-switching.
+
+- **Auto-Walk + Charged Jump** — A'Nuo walks horizontally on her own. Hold `Space` to stop and charge a jump (up to 2 seconds for max height).
+- **Vertical Climbing** — Read the terrain, dodge deadly traps, and chain mask abilities to clear seemingly impossible gaps.
+- **Forgiving Death** — No permadeath in the prototype. A fall triggers a "fate thread" transition that returns you to your last activated shrine.
+- **Mask Switching** — Hot-swap between Nuo Masks to solve traversal puzzles unique to each section of the mountain.
+
+---
+
+## Game Modes
+
+Pick the experience that fits how you want to play:
+
+### 🌫 Normal Mode
+The intended journey. A'Nuo starts with only her basic jump, and the four Nuo Masks unlock one by one as you climb the mountain. Difficulty is tuned to match your growing toolkit.
+
+### 📖 Story Mode
+Designed for players here for the world, the art, and the music. **All four masks are unlocked from the start**, so you can dash, wall-jump, and invert gravity past tricky sections and focus on the Xiangxi folktale at the heart of the game.
+
+### ⏱ Speedrun Mode
+For the hardcore. Includes a millisecond-precise in-game timer, skips non-essential cutscenes, and rewards perfectly tuned mask-switching muscle memory. Valley floor to peak — as fast as you can.
+
+---
+
+## The Four Nuo Masks
+
+The "one-button action" is the heart of the combat-traversal system. The same `Space` key produces wildly different abilities depending on which mask A'Nuo wears.
+
+| Mask | Style | Toggle Key | Ability |
+|------|-------|-----------|---------|
+| 🕊 **The Pathfinder** | Aerial Dash | `Shift` (no time limit) | "White Gull Dash" — high-speed mid-air dash that ignores gravity. For crossing wide chasms and dodging horizontal traps. |
+| 🪨 **The Mountain Breaker** | Cliff Cling | `Q` (manual toggle) | "Wall Cling Suspension" / "Breaker Grapple" — grip vertical walls and reverse-bounce. The only way up sheer terrain. |
+| 🔮 **The Eightfold King** | Anti-Gravity | `E` (manual toggle) | "Gravity Inversion" — fall upward and walk on ceilings. Reshapes the puzzle logic of every room. |
+| 🔥 **The Nuo-Fire Warlord** | Double Jump | Double-tap `Space` | "Nuo-Fire Ascension" — kick off burning Nuo fire mid-air for a second jump. High mobility, high recovery. |
+
+---
+
+## The Checkpoint System
+
+Extreme platforming is hard enough — losing all your progress to one slip is not the kind of suffering this game serves up.
+
+- **Shrine Activation** — Walk past an Ancient Shrine or glowing Bonfire and it activates automatically.
+- **Fall Protection** — Falling triggers a "fate thread pulling" transition that respawns A'Nuo at the last shrine.
+- **Progress Anchoring** — Checkpoints lock in your absolute height. Every breakthrough sticks.
+
+---
+
+## Vertical Biomes
+
+The mountain is divided into four biomes, each evolving the visual language as you ascend:
+
+1. **🌊 Bottom Layer — Misty River Pass**
+   Dark teal tones, ruined stone bridges, ghost-light grass. The tutorial area for basic jumping and the dash mask.
+
+2. **⚰️ Middle Layer — Valley of Suspended Coffins**
+   Sheer cliffs studded with wooden coffins embedded in the mountainside. The Mountain Breaker's playground.
+
+3. **🏮 Mid-High Layer — Stilted Cliff Village**
+   Tujia *Diaojiaolou* (stilted houses) clinging to the rock face, red lanterns, dilapidated planks. The terrain narrows mercilessly.
+
+4. **🔥 Peak — Ancestral Shrine Peak**
+   Warm gold and crimson Nuo fires, a massive bronze Eight Trigrams diagram, an endless sea of clouds under a starry sky.
+
+---
+
+## Audiovisual Pipeline
+
+**Visual Art** — High-resolution vertical backgrounds are generated in Midjourney, then imported into Photoshop / Aseprite and downsampled with the *Nearest Neighbor* algorithm to unify everything under a coherent pixel-art style.
+
+**Audio** — Cyber-Folk. Background music is generated in Suno with a seamless loop. Heavy synth bass and tribal war drums form the foundation; piercing traditional Chinese **Suona** cuts in during critical jumps and crisis moments as an emotional anchor.
+
+---
+
+## Roadmap
+
+The current build is a "suffering platformer" prototype. Planned evolution into a **Platformer Roguelite**:
+
+- [ ] **Combat** — Forest monsters during the climb, exorcised with the masks of the Tujia *Badai* (Shamans).
+- [ ] **Bronze Loom Blessing System** — Run-based enhancements (fire-trail dashes, max HP boosts, and more).
+- [ ] **Permadeath & Meta-Progression** — Safe checkpoints removed; falls cost HP. On death, return to the valley floor and spend collected resources to permanently unlock starting masks and abilities.
+- [ ] **Procedural Dungeons** — Level chunks vertically stitched together at random for infinite replay.
+
+---
+
+## Tech Stack
+
+- **Engine** — *(Godot v 4.6.2)*
+- **Art** — Midjourney &  (Nearest Neighbor downsample)
+- **Audio** — Suno (seamless-loop cyber-folk)
+- **Build Targets** — Windows, macOS, Android, iOS
+
+---
+
+## Credits
+
+**Indie Developer** — Jamie Xingye Xiang
+
+Inspired by Xiangxi Tima (Nuo) culture, Tujia folklore, and the Bizika people of western Hunan.
+Sound Effect by Shiden Beats Music from Pixabay
+Sound Effect by 666HeroHero from Pixabay
+
+---
+
+## Reporting Bugs / Feedback
+
+Found a soft-lock? Got a balance complaint about the Eightfold King? [Open an issue](../../issues/new) — feedback during the prototype phase is genuinely valuable.
+
+---
+
+*"The gods abandoned the peak. A'Nuo did not."*
